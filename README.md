@@ -36,10 +36,48 @@ I spend a lot of time in Jupyter notebooks. Themes are fun, but they are
 also an effective way to avoid eyestrain and address other ergonomic
 issues.
 
+### [notify.run](https://github.com/paulgb/notify.run)
+
+This tool makes it super easy to push notifications to a mobile device
+from python or shell code that may be running anywhere. This is really
+handy when you've got a long job running on a remote machine, and you'd
+like to track its status in some customized way.
+
+### [nbdiff](https://github.com/tarmstrong/nbdiff)
+
+Jupyter notebooks aren't flat files, so they can be kind of annoying to
+track with git. `nbdiff` solves most of the major pain points, particularly
+merging and resolving conflicts.
+
+### [mathpix](https://mathpix.com/)
+
+An OCR tool specifically for mathematics with sophisticated integration with
+various desktop environments (Windows, OS X, Gnome) and LaTeX-based writing
+platforms. Highlight some math, and it will magically poof into LaTeX math
+mode.
+
+### [Magic Wormhole](https://github.com/warner/magic-wormhole)
+
+A pure python utility that lets you move a file from one computer to another
+using human-readable, human-pronounceable authentication tokens across the 
+internet.
+
+
 ## Data
 
 ### [WorldClim](http://worldclim.org/)
 
 A map dataset of several bioclimactic variables at about 1km resolution.
 
+## Hardware
 
+### [OTTO](https://github.com/topisani/OTTO)
+
+An open source synth, sampler, sequencer, effects processor and audio looper,
+inspired by the [Teenage Engineering OP-1](https://teenage.engineering/products/op-1).
+
+## Assorted
+
+### [Swear Trek](https://sweartrek.tumblr.com/)
+
+Hilarious memes and GIFs derived from Star Trek. It's the best thing.
