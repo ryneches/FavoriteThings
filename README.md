@@ -62,6 +62,23 @@ A pure python utility that lets you move a file from one computer to another
 using human-readable, human-pronounceable authentication tokens across the 
 internet.
 
+### [PyPrind](https://github.com/rasbt/pyprind)
+
+A python module for adding text-based progress bars to your code. I also like
+[`tqdm`](https://github.com/tqdm/tqdm), which does pretty much the same thing
+but has more features. I find that I run into fewer issues with PyPrind's
+text-only design, though.
+
+### [hat-trie](https://github.com/pytries/hat-trie)
+
+A [trie](https://en.wikipedia.org/wiki/Trie), or prefix tree, is a data structure
+for compactly storing and searching ordered, sequence-like data (usually strings).
+The twist is that tries search for a match starting at the first element, and
+stops as soon as a unique prefix is identified. If you've ever used tab
+completion, it's just like that. `hat-trie` is an extremely high performance
+unicode trie that implements the Python `dictionary` interface. It's not a tool
+I reach for often, but when a job calls for a prefix tree, it's *scary* how much
+faster `hat-trie` is than a basic dictionary or set.
 
 ## Data
 
