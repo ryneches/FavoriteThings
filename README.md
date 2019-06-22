@@ -80,6 +80,12 @@ unicode trie that implements the Python `dictionary` interface. It's not a tool
 I reach for often, but when a job calls for a prefix tree, it's *scary* how much
 faster `hat-trie` is than a basic dictionary or set.
 
+### [Ibis](https://docs.ibis-project.org/) 
+
+Sometimes, you want to make a Pandas `DataFrame` from a query against a gigantic
+pool of data in some kind of remote storage (BigQuery, SQL, Spark). Ibis makes it
+easy to do the filtering, ordering and merging with the RDBMS, rather than in Pandas.
+
 ## Data
 
 ### [WorldClim](http://worldclim.org/)
